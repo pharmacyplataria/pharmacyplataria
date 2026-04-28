@@ -1,0 +1,12 @@
+{
+  "name": "Φαρμακείο Πλαταριάς",
+  "short_name": "Πλαταριά",
+  "icons": [
+    { "src": "/assets/favicon/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/assets/favicon/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#1B6B8F",
+  "background_color": "#F7FAFC",
+  "display": "standalone",
+  "start_url": "/"
+}

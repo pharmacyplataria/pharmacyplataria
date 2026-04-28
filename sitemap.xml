@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://pharmacyplataria.com/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://pharmacyplataria.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pharmacyplataria.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pharmacyplataria.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pharmacyplataria.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pharmacyplataria.com/"/>
+    <image:image>
+      <image:loc>https://pharmacyplataria.com/assets/images/og-cover.jpg</image:loc>
+      <image:title>Φαρμακείο Πλαταριάς — πολύγλωσσο φαρμακείο</image:title>
+      <image:caption>Plataria Pharmacy — multilingual pharmacy in Plataria, Thesprotia</image:caption>
+    </image:image>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pharmacyplataria.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://pharmacyplataria.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pharmacyplataria.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pharmacyplataria.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pharmacyplataria.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pharmacyplataria.com/"/>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://pharmacyplataria.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://pharmacyplataria.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pharmacyplataria.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pharmacyplataria.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pharmacyplataria.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pharmacyplataria.com/"/>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://pharmacyplataria.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://pharmacyplataria.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pharmacyplataria.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pharmacyplataria.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pharmacyplataria.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pharmacyplataria.com/"/>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
