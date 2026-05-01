@@ -260,6 +260,7 @@ main > section:first-child { content-visibility: visible; }
   color: var(--color-text); font-weight: 500; font-size: var(--fs-small);
   padding: var(--space-2) 0;
   border-bottom: 2px solid transparent;
+  white-space: nowrap;
 }
 .site-nav__list a:hover { color: var(--color-primary); text-decoration: none; border-bottom-color: currentColor; }
 .site-nav__list a[aria-current="true"] { color: var(--color-primary); border-bottom-color: currentColor; }
