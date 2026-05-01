@@ -260,6 +260,14 @@
         <h1 id="hero-title" class="hero__title">Ihre Gesundheit, direkt am Meer.</h1>
         <p class="hero__subtitle">Rezepte, Impfungen, Messungen und fachliche Beratung — auf Deutsch, Englisch, Italienisch und Griechisch. Die einzige Apotheke in Thesprotia mit einem Team, das vier Sprachen spricht.</p>
 
+        <figure class="hero__media">
+          <img src="../assets/images/hero.jpg"
+               alt=""
+               width="2048" height="1365"
+               fetchpriority="high" decoding="async"
+               onerror="this.onerror=null;this.src='../assets/images/placeholder.svg'">
+        </figure>
+
         <div class="lang-badge" role="group" aria-labelledby="lang-badge-label">
           <span class="lang-badge__label" id="lang-badge-label">Wir sprechen Ihre Sprache</span>
           <ul class="lang-badge__list" role="list">
@@ -270,6 +278,10 @@
           </ul>
         </div>
 
+        <div class="status-pill" data-status-pill role="status" aria-live="polite">
+          <span class="status-pill__dot" aria-hidden="true"></span>
+          <span class="status-pill__text" data-status-text>Öffnungszeiten laden…</span>
+        </div>
         <div class="hero__actions">
           <a class="btn btn--primary" href="tel:+302665071888">
             <svg width="18" height="18" aria-hidden="true"><use href="#icon-phone"/></svg>
@@ -280,19 +292,7 @@
             <span>So finden Sie uns</span>
           </a>
         </div>
-        <div class="status-pill" data-status-pill role="status" aria-live="polite">
-          <span class="status-pill__dot" aria-hidden="true"></span>
-          <span class="status-pill__text" data-status-text>Öffnungszeiten laden…</span>
-        </div>
       </div>
-
-      <figure class="hero__media">
-        <img src="../assets/images/hero.jpg"
-             alt=""
-             width="2048" height="1365"
-             fetchpriority="high" decoding="async"
-             onerror="this.onerror=null;this.src='../assets/images/placeholder.svg'">
-      </figure>
     </div>
   </section>
 

@@ -332,9 +332,6 @@ main > section:first-child { content-visibility: visible; }
   display: grid; gap: var(--space-8);
   align-items: center;
 }
-@media (min-width: 900px) {
-  .hero__grid { grid-template-columns: 6fr 5fr; gap: var(--space-12); }
-}
 
 .hero__eyebrow {
   font-size: var(--fs-small); font-weight: 600;
@@ -347,7 +344,7 @@ main > section:first-child { content-visibility: visible; }
   margin-bottom: var(--space-4);
 }
 .hero__subtitle {
-  font-size: clamp(1.0625rem, 1vw + 0.9rem, 1.25rem);
+  font-size: var(--fs-small);
   color: var(--color-text-muted);
   max-width: 52ch; margin-bottom: var(--space-6);
 }
@@ -355,11 +352,31 @@ main > section:first-child { content-visibility: visible; }
   display: flex; gap: var(--space-3); flex-wrap: wrap;
   margin-bottom: var(--space-6);
 }
+.hero__copy > .status-pill { margin-bottom: var(--space-4); }
 
+.hero__media {
+  margin: var(--space-2) 0 var(--space-6) 0;
+}
 .hero__media img {
-  width: 100%; aspect-ratio: 4/3;
+  width: 100%; aspect-ratio: 16/9;
   object-fit: cover; border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
+}
+
+@media (min-width: 900px) {
+  .hero__copy {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    column-gap: var(--space-12);
+  }
+  .hero__copy > * { grid-column: 1; }
+  .hero__copy > .hero__media {
+    grid-column: 2;
+    grid-row: 1 / span 100;
+    align-self: center;
+    margin: 0;
+  }
+  .hero__copy > .hero__media img { aspect-ratio: 4/3; }
 }
 
 /* =============== Status pill =============== */
@@ -670,16 +687,14 @@ a.contact__value:hover { color: var(--color-primary); text-decoration: underline
   display: flex; flex-wrap: wrap; gap: var(--space-2);
 }
 .lang-badge__list li {
-  display: inline-flex; align-items: center; gap: var(--space-2);
-  padding: var(--space-2) var(--space-3);
-  background: var(--color-accent-light);
+  display: inline-flex; align-items: center;
   color: var(--color-accent);
-  border-radius: var(--radius-pill);
   font-size: var(--fs-small); font-weight: 600;
 }
 .lang-badge__flag {
   display: inline-flex; align-items: center; gap: var(--space-2);
   padding: var(--space-2) var(--space-3);
+  background: var(--color-accent-light);
   border-radius: var(--radius-pill);
   color: inherit; text-decoration: none;
   line-height: 1;

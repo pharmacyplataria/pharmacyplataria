@@ -260,6 +260,14 @@
         <h1 id="hero-title" class="hero__title">La vostra salute, accanto al mare.</h1>
         <p class="hero__subtitle">Ricette, vaccinazioni, misurazioni e consulenza specialistica — in italiano, inglese, tedesco e greco. L&#x27;unica farmacia in Tesprozia con un team che parla quattro lingue.</p>
 
+        <figure class="hero__media">
+          <img src="../assets/images/hero.jpg"
+               alt=""
+               width="2048" height="1365"
+               fetchpriority="high" decoding="async"
+               onerror="this.onerror=null;this.src='../assets/images/placeholder.svg'">
+        </figure>
+
         <div class="lang-badge" role="group" aria-labelledby="lang-badge-label">
           <span class="lang-badge__label" id="lang-badge-label">Parliamo la vostra lingua</span>
           <ul class="lang-badge__list" role="list">
@@ -270,6 +278,10 @@
           </ul>
         </div>
 
+        <div class="status-pill" data-status-pill role="status" aria-live="polite">
+          <span class="status-pill__dot" aria-hidden="true"></span>
+          <span class="status-pill__text" data-status-text>Caricamento orari…</span>
+        </div>
         <div class="hero__actions">
           <a class="btn btn--primary" href="tel:+302665071888">
             <svg width="18" height="18" aria-hidden="true"><use href="#icon-phone"/></svg>
@@ -280,19 +292,7 @@
             <span>Dove siamo</span>
           </a>
         </div>
-        <div class="status-pill" data-status-pill role="status" aria-live="polite">
-          <span class="status-pill__dot" aria-hidden="true"></span>
-          <span class="status-pill__text" data-status-text>Caricamento orari…</span>
-        </div>
       </div>
-
-      <figure class="hero__media">
-        <img src="../assets/images/hero.jpg"
-             alt=""
-             width="2048" height="1365"
-             fetchpriority="high" decoding="async"
-             onerror="this.onerror=null;this.src='../assets/images/placeholder.svg'">
-      </figure>
     </div>
   </section>
 

@@ -260,6 +260,14 @@
         <h1 id="hero-title" class="hero__title">Η υγεία σας, δίπλα στη θάλασσα.</h1>
         <p class="hero__subtitle">Συνταγές, εμβολιασμοί, μετρήσεις και εξειδικευμένη συμβουλευτική — στα Ελληνικά, Αγγλικά, Ιταλικά και Γερμανικά. Είμαστε το μοναδικό φαρμακείο στη Θεσπρωτία με τετράγλωσση ομάδα.</p>
 
+        <figure class="hero__media">
+          <img src="assets/images/hero.jpg"
+               alt=""
+               width="2048" height="1365"
+               fetchpriority="high" decoding="async"
+               onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
+        </figure>
+
         <div class="lang-badge" role="group" aria-labelledby="lang-badge-label">
           <span class="lang-badge__label" id="lang-badge-label">Μιλάμε τη γλώσσα σας</span>
           <ul class="lang-badge__list" role="list">
@@ -270,6 +278,10 @@
           </ul>
         </div>
 
+        <div class="status-pill" data-status-pill role="status" aria-live="polite">
+          <span class="status-pill__dot" aria-hidden="true"></span>
+          <span class="status-pill__text" data-status-text>Φόρτωση ωραρίου…</span>
+        </div>
         <div class="hero__actions">
           <a class="btn btn--primary" href="tel:+302665071888">
             <svg width="18" height="18" aria-hidden="true"><use href="#icon-phone"/></svg>
@@ -280,19 +292,7 @@
             <span>Βρείτε μας</span>
           </a>
         </div>
-        <div class="status-pill" data-status-pill role="status" aria-live="polite">
-          <span class="status-pill__dot" aria-hidden="true"></span>
-          <span class="status-pill__text" data-status-text>Φόρτωση ωραρίου…</span>
-        </div>
       </div>
-
-      <figure class="hero__media">
-        <img src="assets/images/hero.jpg"
-             alt=""
-             width="2048" height="1365"
-             fetchpriority="high" decoding="async"
-             onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
-      </figure>
     </div>
   </section>
 
