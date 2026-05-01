@@ -1,4 +1,4 @@
-const SCHEDULE = {
+let SCHEDULE = {
   0: [],
   1: [['08:00', '14:00'], ['17:30', '21:00']],
   2: [['08:00', '14:00'], ['17:30', '21:00']],
@@ -108,4 +108,19 @@ function tick() {
 export function initLiveStatus() {
   tick();
   setInterval(tick, 60_000);
+}
+
+export function setSchedule(s) {
+  // Normalize to string-pair form ([['HH:MM','HH:MM'], ...]) regardless of
+  // whether caller passes string pairs or minute-of-day integer pairs.
+  const norm = {};
+  for (let d = 0; d < 7; d++) {
+    const blocks = Array.isArray(s?.[d]) ? s[d] : [];
+    norm[d] = blocks.map(([open, close]) => [
+      typeof open === 'number' ? formatHM(open) : open,
+      typeof close === 'number' ? formatHM(close) : close,
+    ]);
+  }
+  SCHEDULE = norm;
+  tick();
 }

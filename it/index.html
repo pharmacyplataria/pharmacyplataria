@@ -58,7 +58,7 @@
   <link rel="preload" as="style" href="../style.css">
   <link rel="stylesheet" href="../style.css">
 
-  <script type="application/ld+json">
+  <script type="application/ld+json" data-hours-jsonld>
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -301,7 +301,7 @@
       <h2 id="hours-title" class="section-title">Orari di apertura</h2>
 
       <div class="hours__card">
-        <dl class="hours__table">
+        <dl class="hours__table" data-hours-table>
           <dt>Lunedì – Venerdì</dt>
           <dd>
             <span>08:00 – 14:00</span>
@@ -534,8 +534,10 @@
     </div>
     <div>
       <p class="muted">Orari</p>
-      <p class="muted">Lun–Ven: 08:00–14:00 · 17:30–21:00</p>
-      <p class="muted">Sab: 08:30–14:00 · Dom: chiuso</p>
+      <div data-hours-footer>
+        <p class="muted">Lun–Ven: 08:00–14:00 · 17:30–21:00</p>
+        <p class="muted">Sab: 08:30–14:00 · Dom: chiuso</p>
+      </div>
     </div>
     <div>
       <p class="muted">© <span data-current-year>2026</span> <span>Farmacia di Plataria</span></p>
@@ -543,7 +545,7 @@
   </div>
 </footer>
 
-<script>window.PP_I18N = {"status":{"loading":"Caricamento orari…","open_closes_at":"Aperto · chiude alle {{time}}","closing_soon":"Chiude tra {{mins}} minuti","closed":"Chiuso","closed_opens_today":"Chiuso · apre oggi alle {{time}}","closed_opens_on":"Chiuso · apre {{day}} alle {{time}}","days":{"sun":"Domenica","mon":"Lunedì","tue":"Martedì","wed":"Mercoledì","thu":"Giovedì","fri":"Venerdì","sat":"Sabato"}}};</script>
+<script>window.PP_I18N = {"status":{"loading":"Caricamento orari…","open_closes_at":"Aperto · chiude alle {{time}}","closing_soon":"Chiude tra {{mins}} minuti","closed":"Chiuso","closed_opens_today":"Chiuso · apre oggi alle {{time}}","closed_opens_on":"Chiuso · apre {{day}} alle {{time}}","days":{"sun":"Domenica","mon":"Lunedì","tue":"Martedì","wed":"Mercoledì","thu":"Giovedì","fri":"Venerdì","sat":"Sabato"}},"hours":{"closed":"Chiuso *","closed_short":"chiuso","day_range_sep":" – ","day_range_sep_short":"–","time_range_sep":" – ","time_range_sep_short":"–","shift_sep_footer":" · ","days_short":{"sun":"Dom","mon":"Lun","tue":"Mar","wed":"Mer","thu":"Gio","fri":"Ven","sat":"Sab"}}};</script>
 <script type="module" src="../script.js"></script>
 </body>
 </html>

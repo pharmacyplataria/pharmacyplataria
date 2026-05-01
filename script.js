@@ -1,5 +1,6 @@
 import { initLangMenu } from './js/i18n.js';
-import { initLiveStatus } from './js/live-status.js';
+import { initLiveStatus, setSchedule } from './js/live-status.js';
+import { initHours } from './js/hours.js';
 import { initGallery } from './js/gallery.js';
 import { initNav } from './js/nav.js';
 
@@ -10,6 +11,7 @@ initLangMenu();
 initLiveStatus();
 initGallery();
 initNav();
+initHours().then(s => { if (s) setSchedule(s); });
 
 document.querySelectorAll('[data-copy]').forEach(btn => {
   btn.addEventListener('click', async () => {
