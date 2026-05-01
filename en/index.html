@@ -55,7 +55,7 @@
   <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png">
   <link rel="manifest" href="../assets/favicon/site.webmanifest">
 
-  <link rel="preload" as="image" href="../assets/images/hero/hero-1280.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="../assets/images/hero.jpg" fetchpriority="high">
   <link rel="preload" as="style" href="../style.css">
   <link rel="stylesheet" href="../style.css">
 
@@ -288,18 +288,11 @@
       </div>
 
       <figure class="hero__media">
-        <picture>
-          <source type="image/webp"
-                  srcset="../assets/images/hero/hero-640.webp 640w,
-                          ../assets/images/hero/hero-1280.webp 1280w,
-                          ../assets/images/hero/hero-1920.webp 1920w"
-                  sizes="(min-width: 900px) 40vw, 100vw">
-          <img src="../assets/images/hero/hero-1280.webp"
-               alt=""
-               width="1280" height="960"
-               fetchpriority="high" decoding="async"
-               onerror="this.onerror=null;this.removeAttribute('srcset');this.src='../assets/images/placeholder.svg'">
-        </picture>
+        <img src="../assets/images/hero.jpg"
+             alt=""
+             width="2048" height="1365"
+             fetchpriority="high" decoding="async"
+             onerror="this.onerror=null;this.src='../assets/images/placeholder.svg'">
       </figure>
     </div>
   </section>
@@ -382,9 +375,9 @@
   <section id="bio" class="bio" aria-labelledby="bio-title">
     <div class="container bio__grid">
       <figure class="bio__portrait">
-        <img src="../assets/images/pharmacist/portrait.webp"
+        <img src="../assets/images/profile.jpg"
              alt="Angeliki Pappa, pharmacist at Plataria Pharmacy"
-             width="600" height="750" loading="lazy" decoding="async"
+             width="2048" height="3072" loading="lazy" decoding="async"
              onerror="this.onerror=null;this.src='../assets/images/placeholder.svg'">
         <figcaption class="muted">Angeliki Pappa — Pharmacist</figcaption>
       </figure>
@@ -421,37 +414,37 @@
 
       <ul class="gallery__grid" role="list">
         <li><button type="button" class="gallery__item" data-gallery-index="0">
-          <img src="../assets/images/gallery/01-exterior.webp" alt="" loading="lazy" decoding="async"
+          <img src="../assets/images/Intirior/FZS02357-Edit.jpg" alt="" loading="lazy" decoding="async"
                width="800" height="600"
                onerror="this.src='../assets/images/placeholder.svg'">
           <span class="sr-only">Storefront</span>
         </button></li>
         <li><button type="button" class="gallery__item" data-gallery-index="1">
-          <img src="../assets/images/gallery/02-counter.webp" alt="" loading="lazy" decoding="async"
+          <img src="../assets/images/Intirior/FZS02363-Edit.jpg" alt="" loading="lazy" decoding="async"
                width="800" height="600"
                onerror="this.src='../assets/images/placeholder.svg'">
           <span class="sr-only">Service counter</span>
         </button></li>
         <li><button type="button" class="gallery__item" data-gallery-index="2">
-          <img src="../assets/images/gallery/03-shelves.webp" alt="" loading="lazy" decoding="async"
+          <img src="../assets/images/Intirior/FZS02369-Edit.jpg" alt="" loading="lazy" decoding="async"
                width="800" height="600"
                onerror="this.src='../assets/images/placeholder.svg'">
           <span class="sr-only">Product shelves</span>
         </button></li>
         <li><button type="button" class="gallery__item" data-gallery-index="3">
-          <img src="../assets/images/gallery/04-consultation.webp" alt="" loading="lazy" decoding="async"
+          <img src="../assets/images/Intirior/FZS02372-Edit.jpg" alt="" loading="lazy" decoding="async"
                width="800" height="600"
                onerror="this.src='../assets/images/placeholder.svg'">
           <span class="sr-only">Consultation area</span>
         </button></li>
         <li><button type="button" class="gallery__item" data-gallery-index="4">
-          <img src="../assets/images/gallery/05-cosmetics.webp" alt="" loading="lazy" decoding="async"
+          <img src="../assets/images/Intirior/FZS02383.jpg" alt="" loading="lazy" decoding="async"
                width="800" height="600"
                onerror="this.src='../assets/images/placeholder.svg'">
           <span class="sr-only">Dermo-cosmetics</span>
         </button></li>
         <li><button type="button" class="gallery__item" data-gallery-index="5">
-          <img src="../assets/images/gallery/06-measurement.webp" alt="" loading="lazy" decoding="async"
+          <img src="../assets/images/Intirior/FZS02387.jpg" alt="" loading="lazy" decoding="async"
                width="800" height="600"
                onerror="this.src='../assets/images/placeholder.svg'">
           <span class="sr-only">Measurement station</span>
