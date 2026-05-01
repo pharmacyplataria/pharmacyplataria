@@ -1,10 +1,10 @@
 {
   "_comment": "Edit times in 24-hour HH:MM-HH:MM. Use a comma between shifts. Leave empty for a closed day. Save the file to publish.",
-  "monday":    "08:00-14:00, 17:30-21:00",
-  "tuesday":   "08:00-14:00, 17:30-21:00",
-  "wednesday": "08:00-14:00, 17:30-21:00",
-  "thursday":  "08:00-14:00, 17:30-21:00",
-  "friday":    "08:00-14:00, 17:30-21:00",
-  "saturday":  "08:30-14:00",
+  "monday":    "09:00-14:00, 17:30-21:00",
+  "tuesday":   "09:00-14:00, 17:30-21:00",
+  "wednesday": "09:00-14:00, 17:30-21:00",
+  "thursday":  "09:00-14:00, 17:30-21:00",
+  "friday":    "09:00-14:00, 17:30-21:00",
+  "saturday":  "09:00-14:00, 17:30-21:00",
   "sunday":    ""
 }
